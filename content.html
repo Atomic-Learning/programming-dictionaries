@@ -1,0 +1,60 @@
+
+<p>A <strong>key-value collection</strong> (also called a mapping, dictionary, or hash table in different languages) is a data structure that stores pairs of associated values. Each pair consists of a <strong>key</strong> and a <strong>value</strong>. The key is used to look up and retrieve the associated value, similar to how a word in a dictionary is a key that lets you find its definition (the value).</p>
+
+<h2>Key-Value Pairs</h2>
+
+<p>The fundamental concept is the key-value pair:</p>
+
+<p><strong>Key → Value</strong></p>
+
+<p>For example, in a collection of student information:
+<ul>
+<li>Key: <code>"Alice"</code> → Value: <code>95</code> (her test score)</li>
+<li>Key: <code>"Bob"</code> → Value: <code>87</code> (his test score)</li>
+<li>Key: <code>"Charlie"</code> → Value: <code>92</code> (his test score)</li>
+</ul>
+
+<p>In a collection of city information:
+<ul>
+<li>Key: <code>"London"</code> → Value: <code>8,982,000</code> (population)</li>
+<li>Key: <code>"Tokyo"</code> → Value: <code>13,960,000</code> (population)</li>
+<li>Key: <code>"Paris"</code> → Value: <code>2,161,000</code> (population)</li>
+</ul>
+
+<p>The key is what you use to look up information; the value is what you retrieve.</p>
+
+<h2>Accessing Values</h2>
+
+<p>To retrieve a value from a key-value collection, you specify the key, and the collection returns the associated value. This is faster and more intuitive than searching through a list:</p>
+
+<p><strong>Pseudocode:</strong></p>
+<pre><code class="pseudocode">
+scores = { "Alice": 95, "Bob": 87, "Charlie": 92 }
+alice_score = scores["Alice"]    // Returns 95
+bob_score = scores["Bob"]        // Returns 87
+</code></pre>
+
+<h2>Adding and Modifying Entries</h2>
+
+<p>You can add new key-value pairs to a collection or modify existing values. If the key already exists, the value is updated; if the key is new, a new pair is created.</p>
+
+<p><strong>Pseudocode:</strong></p>
+<pre><code class="pseudocode">
+scores["David"] = 88              // Add a new pair
+scores["Alice"] = 98              // Update an existing value
+</code></pre>
+
+<h2>Constraints on Keys</h2>
+
+<p>In most programming languages, keys must be <strong>hashable</strong>—meaning they must be of a type that can be quickly converted to a fixed-size value for fast lookup. Typically, this includes simple types like integers, floats and strings, but not complex types like lists or other collections.</p>
+
+<h2>Use Cases</h2>
+
+<p>Key-value collections are extremely useful for:</p>
+<ul>
+<li><strong>Lookups:</strong> Finding information by a natural identifier (like looking up a phone number by name)</li>
+<li><strong>Counting:</strong> Counting occurrences of items (keys are items, values are counts)</li>
+<li><strong>Configuration:</strong> Storing configuration settings (keys are option names, values are settings)</li>
+<li><strong>Caching:</strong> Storing computed results to avoid recalculation</li>
+<li><strong>Relationships:</strong> Modeling relationships between entities (like mapping students to their grades)</li>
+</ul>

@@ -1,0 +1,21 @@
+{
+    "title": "Programming: Key-Value Collections",
+    "slug": "programming-dictionaries",
+    "description": "Introduction to key-value collections in a language-agnostic way. Covers the concept of key-value pairs, operations for accessing and modifying entries, and how key-value collections are used across programming languages.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "programming",
+        "pseudocode"
+    ],
+    "duration": 5,
+    "prerequisites": [
+        "programming-variables",
+        "programming-strings",
+        "programming-integers-and-floats"
+    ],
+    "related": [
+        "python-dictionaries-introduction"
+    ]
+}
