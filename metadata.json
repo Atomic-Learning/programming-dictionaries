@@ -1,6 +1,6 @@
 {
     "title": "Programming: Key-Value Collections",
-    "slug": "programming-dictionaries",
+    "slug": "programming-key-value-collections",
     "description": "Introduction to key-value collections in a language-agnostic way. Covers the concept of key-value pairs, operations for accessing and modifying entries, and how key-value collections are used across programming languages.",
     "authors": [
         "chris-cooling"
